@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="701.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tb.FXML2Controller">
+   <children>
+      <Label fx:id="hotel" alignment="CENTER" layoutX="147.0" layoutY="14.0" prefHeight="42.0" prefWidth="264.0" text="HOTEL MIKRO">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="jalan" alignment="CENTER" layoutX="128.0" layoutY="50.0" prefHeight="20.0" prefWidth="323.0" text="Jl. Kaliurang Km. 14,5, Ngaglik, Sleman, Yogyakarta" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="telp" alignment="CENTER" layoutX="191.0" layoutY="70.0" prefHeight="17.0" prefWidth="178.0" text="Telp : (0402) 452849">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textArea" layoutX="109.0" layoutY="101.0" prefHeight="67.0" prefWidth="340.0" text="Jenis Kamar Hotel :&#10;&#10;1. Standart Room Rp.200.000/Hari&#10;2. Deluxe Room Rp.275.000/Hari&#10;3. Suite Room Rp.300.000/Hari&#10;4. Presidents Room Rp.350.000/Hari&#10;" />
+      <TextField fx:id="nm" layoutX="265.0" layoutY="187.0" onAction="#handleButtonAction2" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="kamar" layoutX="265.0" layoutY="224.0" onAction="#handleButtonAction2" prefHeight="25.0" prefWidth="174.0" />
+      <DatePicker fx:id="ci" layoutX="264.0" layoutY="264.0" onAction="#handleButtonAction2" prefHeight="25.0" prefWidth="178.0" />
+      <DatePicker fx:id="co" layoutX="263.0" layoutY="304.0" onAction="#handleButtonAction2" prefHeight="25.0" prefWidth="178.0" />
+      <TextField fx:id="tl" layoutX="263.0" layoutY="412.0" onAction="#handleButtonAction2" prefHeight="25.0" prefWidth="178.0" />
+      <Button fx:id="simpan" layoutX="141.0" layoutY="462.0" mnemonicParsing="false" onAction="#handleButtonAction3" prefHeight="34.0" prefWidth="92.0" text="Simpan" />
+      <Button fx:id="hapus" layoutX="268.0" layoutY="462.0" mnemonicParsing="false" onAction="#handleButtonAction4" prefHeight="34.0" prefWidth="92.0" text="Hapus" />
+      <Label fx:id="nama" layoutX="64.0" layoutY="187.0" prefHeight="25.0" prefWidth="167.0" text="Nama" />
+      <Label fx:id="lamaMenginap" layoutX="57.0" layoutY="224.0" prefHeight="25.0" prefWidth="174.0" text="Lama Menginap" />
+      <Label fx:id="check_in" layoutX="57.0" layoutY="264.0" prefHeight="25.0" prefWidth="167.0" text="Chek In" />
+      <Label fx:id="check_out" layoutX="57.0" layoutY="304.0" prefHeight="25.0" prefWidth="167.0" text="Chek Out" />
+      <Label fx:id="tipeKamar" layoutX="57.0" layoutY="338.0" prefHeight="25.0" prefWidth="167.0" text="No Jenis Kamar" />
+      <Label fx:id="total" layoutX="51.0" layoutY="412.0" prefHeight="25.0" prefWidth="154.0" text="Total" />
+      <TextField fx:id="km" layoutX="263.0" layoutY="338.0" onAction="#handleButtonAction2" prefHeight="25.0" prefWidth="178.0" />
+      <Button fx:id="hitung" layoutX="326.0" layoutY="374.0" mnemonicParsing="false" onAction="#handleButtonAction2" text="Hitung" />
+   </children>
+</AnchorPane>

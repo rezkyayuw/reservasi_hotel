@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="259.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tb.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="133.0" layoutY="158.0" onAction="#handleButtonAction" prefHeight="34.0" prefWidth="75.0" text="Oke" />
+        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="40.0" layoutY="21.0" minHeight="16" minWidth="69" prefHeight="34.0" prefWidth="262.0" text="HOTEL MIKRO" textFill="#c30f0f">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="71.0" prefHeight="34.0" prefWidth="298.0" text="Jl. Kaliurang Km. 14,5, Ngaglik, Sleman, Yogyakarta" textAlignment="CENTER" />
+      <Label alignment="TOP_CENTER" contentDisplay="RIGHT" layoutX="91.0" layoutY="105.0" prefHeight="25.0" prefWidth="160.0" text="Telp. (0402) 452849" />
+    </children>
+</AnchorPane>
